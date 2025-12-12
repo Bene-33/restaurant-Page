@@ -17,6 +17,7 @@ export const loadAbout = () => {
         <div class = 'email'> 
             <h2>Email</h2>
             <p>FoodaRama@33.com</p>
+        </div>
         `;
 
     content.appendChild(contact);       
