@@ -1,9 +1,9 @@
 export const loadHome = () => {
     const content = document.getElementById('content');
-    const openingHours = document.createElement('div');
-    openingHours.classList.add('opening-hours');
+    const startScreen = document.createElement('div');
+    startScreen.classList.add('startScreen');
     
-    openingHours.innerHTML =`
+    startScreen.innerHTML =`
         <div>
             <h1>FoodaRama</h1>
         </div>
@@ -13,5 +13,5 @@ export const loadHome = () => {
             <p>Saturday-Sunday: 4pm - 11pm</p>
         </div>
     `;
-    content.appendChild(openingHours);       
+    content.appendChild(startScreen);       
 };
