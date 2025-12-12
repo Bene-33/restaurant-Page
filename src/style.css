@@ -1,0 +1,38 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #360185;
+    color: #F4B342;
+
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+button{
+    background-color: #8F0177;
+    border: none;
+    padding: 12px;
+    margin: 0px 12px; 
+    color: #F4B342;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 1.33em;
+}
+
+#content{
+    margin: 24px;
+    padding: 12px;
+
+
+}
+
+
+/* 
+first #360185
+second #8F0177
+thrid #DE1A58
+fourth #F4B342 
+*/
