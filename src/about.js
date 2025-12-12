@@ -3,32 +3,21 @@ export const loadAbout = () => {
 
     const contact = document.createElement('div');
     contact.classList.add('contact');
-    
-    const address = document.createElement('div');
-    address.classList.add('address');
-    address.innerHTML =`
-            <h2>Address</21>
+
+    contact.innerHTML =`
+        <h1>About Us</h1>
+        <div class = 'address'> 
+            <h2>Address</h2>
             <p>33 Canada Ave, Vancouver </p>
-    `;
-    
-    const telefone = document.createElement('div');
-    telefone.classList.add('telefone');
-    telefone.innerHTML =`
-            <h2>Telefone</21>
+        </div>
+        <div class = 'telefone'> 
+            <h2>Telefone</h2>
             <p>+1 033 033 033</p>
-    `;
-
-    const email = document.createElement('div');
-    email.classList.add('email');
-    email.innerHTML =`
-            <h2>Email</21>
+        </div>
+        <div class = 'email'> 
+            <h2>Email</h2>
             <p>FoodaRama@33.com</p>
-    `;
-    
+        `;
 
-
-    contact.appendChild(address);
-    contact.appendChild(telefone);
-    contact.appendChild(email);
     content.appendChild(contact);       
 };
