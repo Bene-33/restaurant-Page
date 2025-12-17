@@ -1,7 +1,9 @@
 export const loadMenu = () => {
     const content = document.getElementById('content');
     content.innerHTML =`
-        <h1>Menu</h1>
+        <div>
+            <h1>Menu</h1>
+        </div>
         <div class = 'starters'> 
             <h2>Starters</h2>
             <div class='menuItem'>

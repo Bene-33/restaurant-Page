@@ -1,7 +1,9 @@
 export const loadAbout = () => {
     const content = document.getElementById('content');
     content.innerHTML =`
-        <h1>About Us</h1>
+        <div>
+            <h1>About Us</h1>
+        </div>
         <div class = 'address'> 
             <h2>Address</h2>
             <p>33 Canada Ave, Vancouver </p>

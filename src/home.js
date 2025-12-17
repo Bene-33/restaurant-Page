@@ -10,5 +10,4 @@ export const loadHome = () => {
             <p>Saturday-Sunday: 4pm - 11pm</p>
         </div>
     `;
-  
 };
