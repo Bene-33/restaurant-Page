@@ -1,10 +1,6 @@
 export const loadMenu = () => {
     const content = document.getElementById('content');
-
-    const menu = document.createElement('div');
-    menu.classList.add('menu');
-
-    menu.innerHTML =`
+    content.innerHTML =`
         <h1>Menu</h1>
         <div class = 'starters'> 
             <h2>Starters</h2>
@@ -60,7 +56,5 @@ export const loadMenu = () => {
             </div>
 
         </div>
-        `;
-
-    content.appendChild(menu);       
+        `;    
 };

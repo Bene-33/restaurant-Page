@@ -1,9 +1,6 @@
 export const loadHome = () => {
     const content = document.getElementById('content');
-    const startScreen = document.createElement('div');
-    startScreen.classList.add('startScreen');
-    
-    startScreen.innerHTML =`
+    content.innerHTML =`
         <div>
             <h1>FoodaRama</h1>
         </div>
@@ -13,5 +10,5 @@ export const loadHome = () => {
             <p>Saturday-Sunday: 4pm - 11pm</p>
         </div>
     `;
-    content.appendChild(startScreen);       
+  
 };
