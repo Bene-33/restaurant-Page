@@ -2,8 +2,6 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #360185;
     color: #F4B342;
-
-
 }
 
 nav{
@@ -25,10 +23,30 @@ button{
 #content{
     margin: 24px;
     padding: 12px;
+}
+
+h1{
+    font-size: 4em;
+    color: #DE1A58; 
+    font-style: italic;
+}
+
+h2{
+    font-size: 2em;
+    color: #DE1A58; 
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+#content div{
+    text-align: center;
+
 
 
 }
-
 
 /* 
 first #360185
